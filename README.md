@@ -7,7 +7,7 @@
   · creating an UI in XD Design
 
 - The 'Color Picker'
-  · research and choose an API
-  · Draft and planning of the project
-  · define functionalities (how to show, mix, choose and/or save
-  · creating an UI/UX for the Color Picker
+  > - research and choose an API
+  > - Draft and planning of the project
+  > - define functionalities (how to show, mix, choose and/or save
+  > - creating an UI/UX for the Color Picker
