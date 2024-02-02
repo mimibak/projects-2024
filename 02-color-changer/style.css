@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: "Staatliches", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.left-heading {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+
+.right-heading {
+  writing-mode: vertical-rl;
+  transform: rotate(360deg);
+}
+
+.left-heading,
+.right-heading {
+  font-size: 10vh;
+  font-family: "Nothing You Could Do", cursive;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.btn {
+  font-family: "Staatliches", sans-serif;
+  font-size: 2rem;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: 1px;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(205, 11, 11, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+/* .btn::after {
+  background-color: #fff;
+} */
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+.result {
+  font-size: 2.5rem;
+  color: rgb(32, 32, 32);
+}
+
+input {
+  margin-right: 0.5rem;
+}

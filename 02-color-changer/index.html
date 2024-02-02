@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <title>Color Picker</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="left-heading">Random Color Picker</h1>
+    </header>
+    <main>
+        <article>
+            <button class="btn" id="generateButton">Press to generate</button>
+            <section>
+                <p>Get the code:</p>
+                <ul id="filterSelect">
+                    <li><input type="checkbox" id="checkbox-hex" name="clr-check" value="hex">HEX</li>
+                    <li><input type="checkbox" id="checkbox-rgb" name="clr-check" value="rgb">RGB</li>
+                    <li><input type="checkbox" id="checkbox-hsl" name="clr-check" value="hsl">HSL</li>
+                    <li><input type="checkbox" id="checkbox-hsv" name="clr-check" value="hsv">HSV</li>
+                    <li><input type="checkbox" id="checkbox-cmyk" name="clr-check" value="cmyk">CMYK</li>
+                </ul>
+            </section>
+            <p class="result" id="colorCode">Code hier</p>
+            <p>Copy Paste</p>
+        </article>
+    </main>
+    <footer>
+        <h1 class="right-heading">Random Color Picker</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
