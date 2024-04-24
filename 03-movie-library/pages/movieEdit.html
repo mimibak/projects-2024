@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/movieEdit.css" />
+    <link rel="stylesheet" href="/assets/rating-star/rating-stars.sprite.css" />
+    <title>MoLy - Movie Library</title>
+    <meta name="Movie Library" content="This is a movie library" />
+    <meta name="author" content="Mimz" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header role="banner" class="head">My Movie Library</header>
+      <main role="main" class="body-container">
+        <section class="edit-header">
+          <h1 class="edit-title">Edit</h1>
+          <div class="buttons">
+            <button id="saveEdit" class="btn-save">Save changes</button>
+            <button class="btn-back">
+              <a href="/pages/home.html">Go back</a>
+            </button>
+          </div>
+        </section>
+
+        <section class="next-to-each">
+          <article id="leftContainer">
+            <figure id="imgCover">
+              <figcaption id="altText"></figcaption>
+            </figure>
+          </article>
+
+          <article id="rightContainer">
+            <h2 id="movieTitle"></h2>
+            <span id="detailText"></span>
+          </article>
+        </section>
+      </main>
+      <nav role="navigation" class="navigation">
+        <a href="#news">news</a>
+        <a href="#latest">latest</a>
+        <a href="#favs">favs</a>
+        <a href="#movies">movies</a>
+        <a href="#series">series</a>
+        <a href="#search">search</a>
+      </nav>
+      <footer role="contentinfo" class="footer">Impressum</footer>
+    </div>
+    <script type="module" src="/assets/scripts/edit.js"></script>
+  </body>
+</html>

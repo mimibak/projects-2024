@@ -1,0 +1,412 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+:root {
+  --bg-color-blue-dark: #06141b;
+  --bg-color-blue-medium: #11212d;
+  --bg-color-yelow-light: #fffdde;
+
+  --text-color-white: #ccd0cf;
+  --text-link-color: #9ba8ab;
+  --text-link-visited: yellowgreen;
+  --text-link-hover: yellowgreen;
+  --text-link-hover-hidden: #5e99a6;
+
+  --box-bg-dark: #06141b;
+  --box-bg-shadow: #9ba8ab;
+
+  --horizontal-line: #4a5c6a;
+}
+
+:root {
+  --color-background: var(--bg-color-blue-dark);
+  --asset-lines: var(--horizontal-line);
+  --nav-link: var(--text-link-color);
+  --nav-link-visited: var(--text-link-visited);
+  --nav-link-hover: var(--text-link-hover);
+}
+
+html {
+  position: relative;
+  background-color: var(--color-background);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "work-sans", sans-serif;
+  font-size: 16px;
+  color: var(--text-color-white);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+/* Testphase */
+
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr;
+  grid-template-rows: 0.3fr 2.5fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head head"
+    "navbar body"
+    "footer footer";
+}
+
+.footer {
+  grid-area: footer;
+  max-height: 10vh;
+}
+
+.navbar {
+  grid-area: navbar;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--horizontal-line);
+  width: 100%;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "latest"
+    "filter"
+    "table-area";
+  grid-area: body;
+}
+
+.latest {
+  grid-area: latest;
+  max-height: 20vh;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: filter;
+  max-height: 10vh;
+  border-top: 1px solid var(--asset-lines);
+  border-bottom: 1px solid var(--asset-lines);
+}
+
+.table-area {
+  grid-area: table-area;
+  overflow-y: auto;
+  max-height: 50vh;
+  max-width: 100%;
+}
+
+.head {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: head;
+  max-height: 20vh;
+  padding: 0;
+}
+
+/* .navigation {
+} */
+header,
+main {
+  margin: 0;
+  padding: 2rem 2rem 0rem 2rem;
+  text-align: center;
+}
+
+a {
+  font-size: 0.8em;
+  color: var(--text-link-color);
+}
+
+a:hover {
+  color: var(--text-link-hover);
+}
+
+a:visited {
+  color: var(--text-link-hover-hidden);
+}
+
+a:active {
+  color: var(--text-link-hover);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 2rem;
+  float: right;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.box1 {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: var(--box-bg-dark);
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: rgba(155, 168, 171, 0.2) 0px 8px 24px;
+}
+
+/* .star-rating {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  display: inline-block;
+  cursor: pointer;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("/assets/rating/empty-star-white-50px.png");
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating input[type="radio"]:hover ~ label {
+  background-image: url("/assets/rating/full-star-white-50px.png");
+}
+
+/* .star-rating input[type="radio"]:checked ~ label.half,
+.star-rating input[type="radio"]:hover ~ label.half {
+  background-image: url("/assets/rating/half-star-white-50px.png");
+} */
+
+/*.checked {
+  color: rgb(215, 142, 47);
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+  margin-top: 5rem;
+}
+
+textarea {
+  width: 50%;
+  height: 10vh;
+  margin-top: 2rem;
+  resize: none;
+}
+
+button {
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  border-radius: 0.5em;
+  margin-top: 1rem;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.movie-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+table,
+tr,
+th,
+td {
+  text-align: left;
+  padding: 1em;
+  border: 0.5px solid var(--horizontal-line);
+  border-collapse: collapse;
+}
+
+th:nth-child(2), /* Adjust the index if needed */
+td:nth-child(2) {
+  overflow: hidden; /* Verhindert Überlauf */
+  text-overflow: ellipsis; /* Zeige Ellipsis für überlaufenden Text an */
+}
+
+.title-list {
+  font-weight: SemiBold 600;
+  padding: 1rem;
+  text-align: left;
+  width: auto;
+}
+
+.title-list:nth-child(2) {
+  padding: 0.5rem;
+  text-align: center;
+  width: auto;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+tr.rating-text {
+  border: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.title-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text-container {
+  display: flex;
+  align-items: baseline; /* Damit die Höhe der Container an die größte der beiden Kinder angepasst wird */
+}
+
+.title-text {
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+
+.description-text {
+  margin-top: 0.3em;
+  --max-lines: 4; /*property for the max n of lines that we want to show - more dynamic*/
+  --line-height: 1.4; /*height of a line of text is the line-height times the actual font size => that's how to get the height of the box*/
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+  /*font-size multiplyed by the n of lines and multiplyed by the line-height to take into account how tall the different lines are*/
+  /*the MAX-height makes sure that the size of the boxes adjusts to the content*/
+  line-height: var(--line-height); /*needed to actually apply the line-height*/
+  display: -webkit-box; /*to use webkit properties*/
+  overflow: hidden;
+  -webkit-box-orient: vertical; /*we want a vertical box*/
+  -webkit-line-clamp: var(
+    --max-lines
+  ); /*for the n of lines that we want to use*/
+  position: relative; /*for the fade effect*/
+}
+
+.description-text:has(+ .expandText:not(:checked))::before {
+  content: ""; /*gives a blank peace of content*/
+  position: absolute; /*blank is positioned absolute*/
+  height: calc(1em * var(--line-height)); /*one line tall*/
+  width: 100%;
+  bottom: 0;
+  pointer-events: none; /*not selectable - the text behind can still be highlighted*/
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--bg-color-blue-dark)
+  );
+}
+
+.expandText {
+  appearance: none; /*hides the checkbox so we can style it how we want*/
+  border: 1px solid var(--bg-color-blue-dark);
+  padding: 0.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-top: 1rem;
+  background-color: #ccc;
+  width: 7rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.expandText::before {
+  content: "Show more";
+}
+
+.expandText:checked::before {
+  content: "Show less";
+}
+
+/*has selector 
+=> needed when we have to style a parent element based on the child element inside it
+=> pseudo class similar to :hover or :focus 
+=> in order to use :has we need to pass a selector to the has: selector which will be applied to the parent element
+=> in this case the selector says that we should select any element with the class of .expandText when the checkbox is checked
+=> the + stands for direct sibling
+*/
+
+.description-text:has(+ .expandText:checked) {
+  --max-lines: 50;
+  --line-height: 1.4;
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+}
+
+.edit-link {
+  display: none;
+}
+
+.title-text-container:hover .edit-link {
+  display: inline;
+}
+
+.coverPic {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.cover-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 40% 60%;
+}

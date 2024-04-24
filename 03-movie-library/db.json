@@ -1,0 +1,74 @@
+{
+  "movies": [
+    {
+      "title": "Moby Dickeyen",
+      "cover": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/439fe97a-7418-4646-9530-2e1fd050a2c2/d6rt002-02b7a101-d072-4ae0-82c3-6b047094475c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80MzlmZTk3YS03NDE4LTQ2NDYtOTUzMC0yZTFmZDA1MGEyYzIvZDZydDAwMi0wMmI3YTEwMS1kMDcyLTRhZTAtODJjMy02YjA0NzA5NDQ3NWMuanBnIn1dXX0.a5wahsR8sf9W-VQ0PnnzLgmZRExD-yNHhfQGp0cMvh0",
+      "description": "Hilfe Hilfe Moby Dick ist ein epischer Film, der auf dem gleichnamigen Roman von Herman Melville basiert. Die Geschichte handelt von Captain Ahab, einem besessenen Walfänger, der auf einem erbitterten Rachefeldzug gegen den weißen Pottwal Moby Dick ist, der ihm einst sein Bein genommen hat. Der Film folgt der Reise des Walfangschiffs Pequod und ihrer vielfältigen Besatzung, während sie sich in den Weiten des Ozeans auf die gefährliche Jagd nach dem legendären Wal begeben. Es ist eine Geschichte von Obsession, Mensch gegen Natur und die dunklen Abgründe der menschlichen Natur. Mit atemberaubenden Seefahrtszenen, dramatischer Spannung und tiefgründigen Charakteren fesselt der Film die Zuschauer von Anfang bis Ende.",
+      "rating": 4,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "cover": "https://m.media-amazon.com/images/I/51ScYcSUgrL._SX300_SY300_QL70_ML2_.jpg",
+      "title": "Pumuckel",
+      "description": "Pumuckl ist ein beliebter Kinderfilm, der auf den Geschichten von Ellis Kaut basiert. Die Handlung dreht sich um einen kleinen, frechen Kobold namens Pumuckl, der sich in der Werkstatt des Schreiners Meister Eder versteckt. Obwohl er für andere unsichtbar ist, sorgt Pumuckl mit seinen Streichen und Abenteuern für viel Aufregung. Der Film zeigt die herzerwärmende Freundschaft zwischen Meister Eder und Pumuckl sowie die lustigen Missverständnisse und turbulenten Ereignisse, die durch Pumuckls Schabernack entstehen. Mit seiner charmanten Handlung und den liebenswerten Charakteren begeistert der Film Kinder und Erwachsene gleichermaßen.",
+      "rating": 3
+    },
+    {
+      "id": "3",
+      "title": "City of Stars",
+      "cover": "https://1.bp.blogspot.com/-GPZoyopjUB0/WC7UKBkBy6I/AAAAAAAATUk/0OyNBwePPBoPiOethQqryarHxbZOnYecwCLcB/s1600/la-la-land-soundtrack-city-of-stars.jpg",
+      "description": "City of Stars ist ein fesselndes Drama, das in der pulsierenden Metropole Los Angeles spielt. Die Handlung folgt den Geschichten mehrerer Personen, die alle auf der Suche nach Erfolg, Liebe und Erfüllung in der Stadt der Träume sind. In einem Netz von Schicksalen und Zufällen kreuzen sich ihre Wege, während sie mit den Herausforderungen des Lebens, den Versuchungen der Unterhaltungsindustrie und den Hoffnungen auf eine bessere Zukunft konfrontiert werden. Der Film fängt die Magie und das Drama von Los Angeles ein, während er gleichzeitig die universellen Themen von Hoffnung, Verlust und dem Streben nach Glück erkundet. Mit seiner eindrucksvollen Darstellung, mitreißender Musik und einer fesselnden Erzählweise zieht City of Stars die Zuschauer in seinen Bann und lässt sie in das Herz einer der faszinierendsten Städte der Welt eintauchen.",
+      "rating": 3
+    },
+    {
+      "id": "4",
+      "title": "Sesamstraße",
+      "cover": "https://www.filminfos.de/cover/big/850/85002.jpg",
+      "description": "Die Sesamstraße ist eine beliebte Fernsehsendung für Kinder, die seit den 1960er Jahren weltweit ausgestrahlt wird. Die Serie kombiniert Puppen, Animationen und menschliche Schauspieler, um Kindern wichtige Lerninhalte wie Alphabet, Zahlen, soziale Kompetenzen und vieles mehr auf unterhaltsame Weise zu vermitteln. In der Sesamstraße leben bekannte Charaktere wie Ernie und Bert, Elmo, Grobi und das Krümelmonster. Durch lustige Sketche, Lieder und Geschichten werden nicht nur Bildungsinhalte vermittelt, sondern auch Werte wie Freundschaft, Toleranz und Zusammenarbeit gefördert. Die Sesamstraße ist eine zeitlose und geliebte Sendung, die Generationen von Kindern auf der ganzen Welt unterhalten und inspirieren hat.",
+      "rating": 3
+    },
+    {
+      "id": "5",
+      "title": "Pokémon",
+      "cover": "https://www.gamersdecide.com/sites/default/files/authors/u151870/poster-780.jpg",
+      "description": "Pokémon ist eine weltweit bekannte Franchise, die sich um das Fangen und Trainieren von fiktiven Kreaturen dreht, die als Pokémon bekannt sind. Die Hauptserie besteht aus Videospielen, einer Fernsehserie, Filmen, Sammelkartenspielen und vielen weiteren Merchandising-Produkten. In der Welt von Pokémon werden Trainer dazu ermutigt, Pokémon zu fangen, zu trainieren und in Kämpfen gegen andere Trainer anzutreten. Die Hauptfigur der Serie ist oft ein junger Pokémon-Trainer, der auf einer Reise ist, um ein Pokémon-Meister zu werden. Durch Freundschaft, Strategie und Entdeckung von neuen Pokémon und Orten erleben die Charaktere Abenteuer und wachsen über sich hinaus. Mit einer Vielzahl von farbenfrohen und einzigartigen Pokémon, spannenden Kämpfen und einer tiefgründigen Welt hat Pokémon eine riesige Fangemeinde auf der ganzen Welt gewonnen und bleibt eine der erfolgreichsten und einflussreichsten Franchises in der Unterhaltungsindustrie.",
+      "rating": 3
+    },
+    {
+      "id": "6",
+      "title": "Teletubbies",
+      "cover": "https://flxt.tmsimg.com/assets/p22962369_b_v13_ab.jpg",
+      "description": "Die Teletubbies sind eine ikonische Kindersendung, die von ihrer bunten und fantasievollen Welt sowie den charakteristischen, kuppelförmigen Figuren geprägt ist. Die Serie richtet sich an Vorschulkinder und kombiniert Live-Action, Puppen und einfache Animationen, um eine einzigartige und beruhigende Umgebung zu schaffen. Die vier Hauptcharaktere - Tinky-Winky, Dipsy, Laa-Laa und Po - erkunden gemeinsam die Teletubby-Landschaft, erleben Abenteuer und lernen einfache Konzepte wie Farben, Zahlen und Formen. Die Sendung zeichnet sich durch ihre einfache Sprache, wiederkehrende Muster und sanfte Musik aus, die speziell auf die Bedürfnisse junger Kinder zugeschnitten ist. Mit seiner einladenden und freundlichen Atmosphäre hat Teletubbies Generationen von Kindern auf der ganzen Welt begeistert und bleibt ein beliebter Klassiker in der Welt der Vorschulunterhaltung.",
+      "rating": 3
+    },
+    {
+      "id": "7",
+      "title": "Urmel aus dem Eis",
+      "cover": "https://www.moviemeter.nl/images/cover/38000/38342.jpg?cb=1405104789",
+      "description": "Urmel aus dem Eis ist eine charmante Geschichte, die von Max Kruse geschrieben und als Buch sowie als Fernsehserie adaptiert wurde. Die Handlung dreht sich um ein kleines Urzeitwesen namens Urmel, das aus einem Eisblock auftaut und in die Welt der Menschen gelangt. Urmel findet schnell Freunde bei Professor Habakuk Tibatong und anderen Bewohnern der fiktiven Insel Titiwu. Gemeinsam erleben sie Abenteuer und lernen wichtige Lektionen über Freundschaft, Zusammenarbeit und den Schutz von bedrohten Arten. Mit seinem liebevollen Humor, den liebenswerten Charakteren und den lehrreichen Botschaften hat Urmel aus dem Eis sowohl Kinder als auch Erwachsene seit Generationen begeistert und bleibt ein zeitloser Klassiker der Kinderliteratur und -unterhaltung.",
+      "rating": 3
+    },
+    {
+      "id": "8",
+      "title": "Augsburger Puppenkiste",
+      "cover": "https://www.media-dealer.de/out/pictures/master/product/1/0889854552091_1.jpg",
+      "description": "Die Augsburger Puppenkiste ist eine berühmte deutsche Marionettentheaterbühne, die seit den 1940er Jahren Kinder und Erwachsene gleichermaßen mit ihren charmanten Inszenierungen verzaubert. Die Puppenkiste wurde von Walter Oehmichen gegründet und hat seitdem zahlreiche beliebte Geschichten auf die Bühne gebracht, darunter Märchenklassiker, Abenteuergeschichten und Kinderbücher. Mit handgefertigten Marionetten, aufwendigen Bühnenbildern und einer einzigartigen Atmosphäre hat die Augsburger Puppenkiste Generationen von Zuschauern begeistert. Neben ihren Live-Aufführungen wurde die Puppenkiste auch durch Fernsehsendungen bekannt, die ihre Aufführungen für ein breiteres Publikum zugänglich machten. Mit ihrer zeitlosen Magie und ihrem künstlerischen Erbe bleibt die Augsburger Puppenkiste ein wichtiges kulturelles Erbe und ein geliebter Teil der deutschen Unterhaltungskultur.",
+      "rating": 3
+    },
+    {
+      "id": "9",
+      "title": "Sandmännchen",
+      "cover": "https://assets.cdn.moviepilot.de/files/67c4c99a9225835ea8eb420b023484a68a7b730170870f18a6b277a9bed4/unser-sandm_nnchen-poster-02.jpg",
+      "description": "Das Sandmännchen ist eine beliebte deutsche Fernsehsendung für Kinder, die seit den 1950er Jahren ausgestrahlt wird. Die Sendung folgt dem Sandmännchen, einem freundlichen Märchenwesen, das den Kindern jeden Abend vor dem Schlafengehen einen Besuch abstattet und ihnen dabei Geschichten erzählt oder sie in Schlaf wiegt. Die Sendung kombiniert Animationen, Puppen und Erzählungen, um eine entspannte und beruhigende Atmosphäre zu schaffen, die die Kinder auf das Zubettgehen vorbereitet. Das Sandmännchen ist zu einem festen Bestandteil der deutschen Kinderkultur geworden und hat Generationen von Kindern auf sanfte und liebevolle Weise in den Schlaf begleitet.",
+      "rating": 3
+    },
+    {
+      "id": "10",
+      "title": "Die Mummins",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/91gCi1GtfiL._SL1500_.jpg",
+      "description": "Die Mumins sind eine beliebte Reihe von Kinderbüchern und Comics, die von der finnisch-schwedischen Autorin Tove Jansson geschaffen wurden. Die Geschichten spielen in einer idyllischen und gleichzeitig geheimnisvollen Welt, in der die Mumins, liebenswerte, trollähnliche Wesen, Abenteuer erleben und Freundschaften schließen. Die Handlung dreht sich oft um die Familie Mumin, bestehend aus Muminmutter, Muminvater und ihrem Sohn Mumin, sowie eine Vielzahl von anderen Charakteren, darunter Snorkfräulein, Sniff und Snufkin. Durch ihre einfühlsame Erzählweise, die poetische Sprache und die tiefgründigen Themen wie Familie, Natur und Abenteuer haben die Mumins sowohl Kinder als auch Erwachsene auf der ganzen Welt fasziniert und inspiriert.",
+      "rating": 3
+    }
+  ]
+}
