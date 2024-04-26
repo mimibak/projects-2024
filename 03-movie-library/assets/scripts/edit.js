@@ -11,7 +11,6 @@ const leftContainer = document.querySelector("#leftContainer");
 const rightContainer = document.querySelector("#rightContainer");
 const saveChanges = document.querySelector("#saveEdit");
 
-let renderDetails = JSON.parse(localStorage.getItem("lastSave")) || [];
 const urlParams = new URLSearchParams(window.location.search);
 const movieId = urlParams.get("id");
 
